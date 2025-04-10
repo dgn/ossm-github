@@ -3,6 +3,8 @@ commits:
     title: Fix tests resources cleanup for Openshift (#55638) (#344)
     author: Filip Brychta
     date: 2025-04-09 14:36:47 +0200
+    upstreamPR: "[#55638](https://github.com/istio/istio/pull/55638)"
+    comment: already merged upstream (both master and release-1.24)
   - sha: 30015619f01d1d3508f60cbf91fa8773969526bb
     title: Add flag to be compliant with attribute handling behavior in the specification (#341)
     author: Yann Liu
