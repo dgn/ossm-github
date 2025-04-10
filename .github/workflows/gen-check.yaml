@@ -1,0 +1,17 @@
+name: gen-check
+
+on: [push, pull_request]
+
+jobs:
+  gen-check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Install yq
+      run: |
+        go install github.com/mikefarah/yq/v4@v4.45.1
+
+    - name: Run gen-check target
+      run: |
+        make gen-check

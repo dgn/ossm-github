@@ -1,0 +1,5 @@
+commits:
+  - sha: 435c1236db35b06078269e68e7c32fa0c5eb7652
+    title: Add scripts for running integration tests on OCP
+    author: Daniel Grimm
+    date: 2024-09-04 11:33:52 +0200
